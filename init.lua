@@ -104,6 +104,10 @@ vim.opt.number = true
 --  Experiment for yourself to see if you like it!
 vim.opt.relativenumber = true
 
+-- Make Tabs 4 spaces wide
+vim.opt.tabstop = 4
+vim.opt.shiftwidth = 4
+
 -- Enable mouse mode, can be useful for resizing splits for example!
 vim.opt.mouse = 'a'
 
@@ -239,7 +243,7 @@ vim.opt.rtp:prepend(lazypath)
 -- NOTE: Here is where you install your plugins.
 require('lazy').setup({
   -- NOTE: Plugins can be added with a link (or for a github repo: 'owner/repo' link).
-  'tpope/vim-sleuth', -- Detect tabstop and shiftwidth automatically
+  -- 'tpope/vim-sleuth', -- Detect tabstop and shiftwidth automatically
 
   'ThePrimeagen/vim-be-good',
 
