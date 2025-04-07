@@ -104,6 +104,9 @@ vim.opt.number = true
 --  Experiment for yourself to see if you like it!
 vim.opt.relativenumber = true
 
+-- Make fillchars for end of buffer empty (instead of '~')
+vim.opt.fillchars = 'eob: '
+
 -- Make Tabs 4 spaces wide
 vim.opt.tabstop = 4
 vim.opt.shiftwidth = 4
