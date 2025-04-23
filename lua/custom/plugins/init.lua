@@ -3,6 +3,8 @@
 --
 -- See the kickstart.nvim README for more information
 return {
+  'ThePrimeagen/vim-be-good',
+
   {
     'nvim-neo-tree/neo-tree.nvim',
     branch = 'v3.x',
